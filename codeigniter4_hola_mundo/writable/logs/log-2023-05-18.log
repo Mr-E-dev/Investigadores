@@ -1,0 +1,920 @@
+INFO - 2023-05-18 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 06:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 06:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 06:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 06:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 07:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 07:29:05 --> Undefined property: stdClass::$Idfacultad
+in APPPATH\Views\listado_equipo.php on line 17.
+ 1 APPPATH\Views\listado_equipo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Idfacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_equipo.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listado_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerreservas.php(23): view('listado_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerreservas->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerreservas))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 07:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 08:28:24 --> Undefined property: stdClass::$IdReserva
+in APPPATH\Views\listado_reservas.php on line 18.
+ 1 APPPATH\Views\listado_reservas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdReserva', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_reservas.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_reservas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listado_reservas', [], true)
+ 5 APPPATH\Controllers\Controllerfacultad.php(23): view('listado_reservas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 08:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 08:28:46 --> Undefined property: stdClass::$IdReserva
+in APPPATH\Views\listado_reservas.php on line 18.
+ 1 APPPATH\Views\listado_reservas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdReserva', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_reservas.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_reservas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listado_reservas', [], true)
+ 5 APPPATH\Controllers\Controllerfacultad.php(23): view('listado_reservas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 08:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 08:29:11 --> Undefined property: stdClass::$IdEquipo
+in APPPATH\Views\listado_facultad.php on line 16.
+ 1 APPPATH\Views\listado_facultad.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdEquipo', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_facultad.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_facultad.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listado_facultad', [], true)
+ 5 APPPATH\Controllers\Controllerfacultad.php(23): view('listado_facultad', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 08:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 08:29:25 --> Undefined property: stdClass::$IdEquipo
+in APPPATH\Views\listado_facultad.php on line 16.
+ 1 APPPATH\Views\listado_facultad.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdEquipo', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_facultad.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_facultad.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listado_facultad', [], true)
+ 5 APPPATH\Controllers\Controllerfacultad.php(23): view('listado_facultad', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 08:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 08:31:00 --> Undefined property: stdClass::$Idfacultad
+in APPPATH\Views\listado_facultad.php on line 16.
+ 1 APPPATH\Views\listado_facultad.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Idfacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_facultad.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_facultad.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listado_facultad', [], true)
+ 5 APPPATH\Controllers\Controllerfacultad.php(23): view('listado_facultad', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 08:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 08:31:11 --> Undefined property: stdClass::$NomFacultad
+in APPPATH\Views\listado_ivestigadores.php on line 16.
+ 1 APPPATH\Views\listado_ivestigadores.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$NomFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_ivestigadores.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_ivestigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listado_ivestigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(23): view('listado_ivestigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 08:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 08:32:30 --> Undefined property: stdClass::$Idfacultad
+in APPPATH\Views\listado_facultad.php on line 16.
+ 1 APPPATH\Views\listado_facultad.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Idfacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_facultad.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\listado_facultad.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listado_facultad', [], true)
+ 5 APPPATH\Controllers\Controllerfacultad.php(23): view('listado_facultad', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 08:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 08:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 09:33:30 --> Invalid file: "add_ivestigadores.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_ivestigadores.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_ivestigadores', [], true)
+ 3 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_ivestigadores', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 09:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 09:34:18 --> Undefined variable $lista_facultades
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 09:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 09:35:57 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 09:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 09:47:14 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 09:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 09:47:48 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 09:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 09:49:20 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 09:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 09:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 10:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-18 11:31:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`investigadores`.`equipo`, CONSTRAINT `equipo_ibfk_1` FOREIGN KEY (`Idfacultad`) REFERENCES `facultad` (`IdFacultad`)) in C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `eq...', 0)
+#1 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eq...')
+#2 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eq...')
+#3 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eq...', Array, false)
+#4 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4_hola_mundo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeigniter4_hola_mundo\app\Controllers\Controllerequipo.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(934): App\Controllers\ControllerEquipo->save()
+#9 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+#10 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeigniter4_hola_mundo\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 11:31:17 --> Cannot add or update a child row: a foreign key constraint fails (`investigadores`.`equipo`, CONSTRAINT `equipo_ibfk_1` FOREIGN KEY (`Idfacultad`) REFERENCES `facultad` (`IdFacultad`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (:IdEquipo:, :Idfacultad:, :Descripcion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Controllerequipo.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->save()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-18 11:33:06 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`investigadores`.`equipo`, CONSTRAINT `equipo_ibfk_1` FOREIGN KEY (`Idfacultad`) REFERENCES `facultad` (`IdFacultad`)) in C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `eq...', 0)
+#1 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eq...')
+#2 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eq...')
+#3 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eq...', Array, false)
+#4 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4_hola_mundo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeigniter4_hola_mundo\app\Controllers\Controllerequipo.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(934): App\Controllers\ControllerEquipo->save()
+#9 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+#10 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeigniter4_hola_mundo\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 11:33:06 --> Cannot add or update a child row: a foreign key constraint fails (`investigadores`.`equipo`, CONSTRAINT `equipo_ibfk_1` FOREIGN KEY (`Idfacultad`) REFERENCES `facultad` (`IdFacultad`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (:IdEquipo:, :Idfacultad:, :Descripcion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Controllerequipo.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->save()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-18 11:33:36 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`investigadores`.`equipo`, CONSTRAINT `equipo_ibfk_1` FOREIGN KEY (`Idfacultad`) REFERENCES `facultad` (`IdFacultad`)) in C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `eq...', 0)
+#1 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eq...')
+#2 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eq...')
+#3 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eq...', Array, false)
+#4 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4_hola_mundo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeigniter4_hola_mundo\app\Controllers\Controllerequipo.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(934): App\Controllers\ControllerEquipo->save()
+#9 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+#10 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeigniter4_hola_mundo\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 11:33:36 --> Cannot add or update a child row: a foreign key constraint fails (`investigadores`.`equipo`, CONSTRAINT `equipo_ibfk_1` FOREIGN KEY (`Idfacultad`) REFERENCES `facultad` (`IdFacultad`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (\'666\', \'Alcorcon 69\', \'parado pero controlado\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `equipo` (`IdEquipo`, `Idfacultad`, `Descripcion`) VALUES (:IdEquipo:, :Idfacultad:, :Descripcion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Controllerequipo.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->save()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:37:04 --> Undefined variable $listado_facultades
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:37:29 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:37:36 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:38:24 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:38:27 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:38:53 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:38:57 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:39:16 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:40:13 --> Undefined property: stdClass::$IdFacultad
+in APPPATH\Views\add_equipo.php on line 9.
+ 1 APPPATH\Views\add_equipo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:40:23 --> Undefined property: stdClass::$NomFacultad
+in APPPATH\Views\add_equipo.php on line 10.
+ 1 APPPATH\Views\add_equipo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$NomFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:40:26 --> Undefined property: stdClass::$NomFacultad
+in APPPATH\Views\add_equipo.php on line 10.
+ 1 APPPATH\Views\add_equipo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$NomFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:42:18 --> Undefined variable $Idfacultad
+in APPPATH\Views\add_equipo.php on line 9.
+ 1 APPPATH\Views\add_equipo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Idfacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:42:21 --> Undefined variable $Idfacultad
+in APPPATH\Views\add_equipo.php on line 9.
+ 1 APPPATH\Views\add_equipo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Idfacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:42:49 --> Undefined property: stdClass::$IdFacultad
+in APPPATH\Views\add_equipo.php on line 9.
+ 1 APPPATH\Views\add_equipo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:43:00 --> Undefined property: stdClass::$IdFacultad
+in APPPATH\Views\add_equipo.php on line 9.
+ 1 APPPATH\Views\add_equipo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:43:17 --> Undefined variable $lista_facultades
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:44:18 --> Undefined variable $lista_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:44:47 --> Undefined variable $lista_facultades
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:44:50 --> Undefined variable $lista_facultades
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:45:09 --> Undefined variable $listdo_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listdo_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:45:13 --> Undefined variable $listdo_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listdo_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:45:33 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:46:36 --> Undefined variable $lista_facultades
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:46:39 --> Undefined variable $lista_facultades
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:46:49 --> Undefined variable $lista_facultades
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:47:14 --> Undefined variable $lista_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:48:12 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:48:17 --> Undefined variable $listado_facultad
+in APPPATH\Views\add_investigadores.php on line 12.
+ 1 APPPATH\Views\add_investigadores.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_investigadores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_investigadores', [], true)
+ 5 APPPATH\Controllers\ControllerInvestigadores.php(43): view('add_investigadores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-18 11:49:49 --> mysqli_sql_exception: Duplicate entry '0sdsd3t' for key 'PRIMARY' in C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4_hola_mundo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeigniter4_hola_mundo\app\Controllers\ControllerInvestigadores.php(57): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->save()
+#9 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+#10 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeigniter4_hola_mundo\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 11:49:49 --> Duplicate entry '0sdsd3t' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `investigadores` (`DNI`, `NomInvestigador`, `ApellInvestigador`, `IdFacultad`) VALUES (\'0sdsd3t\', \'hamad3\', \'fortuenti\', \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `investigadores` (`DNI`, `NomInvestigador`, `ApellInvestigador`, `IdFacultad`) VALUES (\'0sdsd3t\', \'hamad3\', \'fortuenti\', \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `investigadores` (`DNI`, `NomInvestigador`, `ApellInvestigador`, `IdFacultad`) VALUES (\'0sdsd3t\', \'hamad3\', \'fortuenti\', \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `investigadores` (`DNI`, `NomInvestigador`, `ApellInvestigador`, `IdFacultad`) VALUES (:DNI:, :NomInvestigador:, :ApellInvestigador:, :IdFacultad:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerInvestigadores.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerInvestigadores->save()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerInvestigadores))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:50:37 --> Undefined property: stdClass::$IdFacultad
+in APPPATH\Views\add_equipo.php on line 9.
+ 1 APPPATH\Views\add_equipo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:52:00 --> Undefined property: stdClass::$NomFacultad
+in APPPATH\Views\add_equipo.php on line 10.
+ 1 APPPATH\Views\add_equipo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$NomFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:52:04 --> Undefined property: stdClass::$NomFacultad
+in APPPATH\Views\add_equipo.php on line 10.
+ 1 APPPATH\Views\add_equipo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$NomFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:56:17 --> Undefined variable $listado_facultades
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:56:19 --> Undefined variable $listado_facultades
+in APPPATH\Views\add_equipo.php on line 8.
+ 1 APPPATH\Views\add_equipo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listado_facultades', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 11:57:32 --> Undefined property: stdClass::$IdFacultad
+in APPPATH\Views\add_equipo.php on line 9.
+ 1 APPPATH\Views\add_equipo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IdFacultad', 'C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4_hola_mundo\\app\\Views\\add_equipo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_equipo', [], true)
+ 5 APPPATH\Controllers\Controllerequipo.php(33): view('add_equipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControllerEquipo->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerEquipo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 11:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 11:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-18 12:08:38 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `fa...', 0)
+#1 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4_hola_mundo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeigniter4_hola_mundo\app\Controllers\Controllerfacultad.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(934): App\Controllers\Controllerfacultad->save()
+#9 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+#10 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeigniter4_hola_mundo\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 12:08:38 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'Jesus de todos los santos\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'Jesus de todos los santos\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'Jesus de todos los santos\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `facultad` (`NomFacultad`) VALUES (:NomFacultad:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Controllerfacultad.php(38): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->save()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 12:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-18 12:09:21 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `fa...', 0)
+#1 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4_hola_mundo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeigniter4_hola_mundo\app\Controllers\Controllerfacultad.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(934): App\Controllers\Controllerfacultad->save()
+#9 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+#10 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeigniter4_hola_mundo\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 12:09:21 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'Jesus \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'Jesus \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'Jesus \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `facultad` (`NomFacultad`) VALUES (:NomFacultad:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Controllerfacultad.php(38): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->save()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 12:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 12:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-18 12:11:39 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `fa...', 0)
+#1 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4_hola_mundo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter4_hola_mundo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeigniter4_hola_mundo\app\Controllers\Controllerfacultad.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(934): App\Controllers\Controllerfacultad->save()
+#9 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+#10 C:\xampp\htdocs\codeigniter4_hola_mundo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeigniter4_hola_mundo\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 12:11:39 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'asffsda\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'asffsda\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `facultad` (`NomFacultad`) VALUES (\'asffsda\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `facultad` (`NomFacultad`) VALUES (:NomFacultad:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Controllerfacultad.php(38): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Controllerfacultad->save()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controllerfacultad))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()

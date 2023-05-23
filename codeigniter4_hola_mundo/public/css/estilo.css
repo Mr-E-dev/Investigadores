@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "science";
+  src: url("../fonts/Alive\ in\ Science\ Fiction.ttf") format("truetype");
+}
+@font-face {
+  font-family: "sciencebold";
+  src: url("../fonts/Alive\ in\ Science\ Fiction-BOLD.ttf") format("truetype");
+}
+@font-face {
+  font-family: "teletext";
+  src: url("../fonts/EuropeanTeletextNuevo.ttf") format("truetype");
+}
+body{
+    background-color: #ecfcfc;
+    background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "teletext",Arial, Helvetica, sans-serif;
+
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ecfcfc;
+    opacity: 0.95;
+  }
+  
+  th, td {
+    padding: 15px;
+    border: 1px solid #08385f;
+    opacity: 0.95;
+  }
+  
+  th {
+    background-color: #0c78bb;
+    color: #add8e6;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #add8e6;
+  }
+  .nav tr:hover {
+    background-color: transparent;
+  }
+  tr:hover {
+    background-color: #fcd18b;
+  }
+  h1 {
+    background-color: #add8e6;
+    color: #000000;
+    padding: 10px;
+    border: 2px solid #87cefa;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    opacity: 0.8;
+
+  }
+  .dropdown{
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content{
+    display:none;
+    position: absolute;
+    margin-top: 16px;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px;
+    background-color: #0c78bb;
+    pointer-events: none;
+    opacity : 0;
+    transition: opacity 0.5s ease, visibility 0.3s ease;
+    list-style-type: square;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+  .dropdown-content a{
+    display: block;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover{
+    color: #000000;
+    background-color: #07588a;
+  }
+  a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  #navegador{
+    color: white;
+  }
+.nav{
+  background-color: transparent;
+  font-family: "sciencebold";
+}
+#about{
+justify-content: left;
+  background-color: white;
+  opacity: 0.7;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#about tr td{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+}
+#about tr:hover{
+  color: #000000;
+  background-color: transparent;
+  border-radius: 30px;
+  border-radius: 2%;
+}
+span{
+  color: #000000;
+}
+#pie{
+  background-color: #add8e6;
+  color: #000000;
+  padding: 10px;
+  border: 2px solid #87cefa;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  opacity: 0.7;
+}
+#copy{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#icon{
+  background-image: url("../img/icons/delete.png");
+  height: 30px;
+}
+#icon:hover{
+  background-image: url("http://localhost/codeigniter4_hola_mundo/public/img/icons/delete_hover.png");
+}
